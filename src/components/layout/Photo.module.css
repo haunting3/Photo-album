@@ -1,0 +1,56 @@
+.photographer {
+  position: relative;
+  bottom: 45px;  
+  font-size: 1.3em;
+  padding-left: 20px;
+  padding-right: 20px;
+  transition: .5s ease-in-out;
+}
+
+.photographer:hover{
+  opacity: 1;
+}
+
+.photographerHide {
+  opacity: 0;
+}
+
+.photographerShow {
+  opacity: 1;
+}
+
+.item .a{
+  color: #fff;
+  text-decoration: none;
+}
+
+.item {
+  transition: .5s ease-in-out;
+}
+
+.item:hover{
+  filter:brightness(80%);
+  cursor: pointer;
+}
+
+.iconProfile {
+  margin-top: -.2em;
+  margin-right: .3em;
+}
+
+.iconDownload {
+  float: right;
+  margin-top: .3em;
+}
+
+@media (min-width: 768px){
+  .photographer p {
+    font-size: .8em;
+    }
+}
+
+@media (min-width: 992px){
+  .photographer p {
+    font-size: .9em;
+    }
+}
